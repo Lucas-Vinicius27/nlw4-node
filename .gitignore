@@ -119,4 +119,4 @@ dist
 .pnp.*
 
 # Data Base sqlite
-database/database.sqlite
+src/database/database.sqlite
