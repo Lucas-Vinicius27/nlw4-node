@@ -6,9 +6,7 @@ class SurveyController {
     async create(request: Request, response: Response) {
         const { title, description } = request.body;
         const surveysRepository = getCustomRepository(SurveysRepository);
-        const survey = surveysRepository.create({
-            title, description
-        });
+        const survey = surveysRepository.create({ title, description });
 
         await surveysRepository.save(survey);
 
