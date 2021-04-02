@@ -2,6 +2,7 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
+    "files.autoSave": "off",
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
     "json.format.enable": true,
